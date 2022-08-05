@@ -1,0 +1,29 @@
+<!-- A combinator is something that explains the relationship between the selectors. -->
+<!-- There are four different combinators in CSS:
+descendant selector (space) -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div p {
+        background-color: rgb(255, 30, 0);
+      }
+    </style>
+  </head>
+  <body>
+
+    <div>
+      <p>Paragraph 1 in the div.</p>
+      <p>Paragraph 2 in the div.</p>
+      <p>Paragraph 3 in the div.</p>
+    </div>
+
+    <p>Paragraph 4. Not in a div.</p>
+    <p>Paragraph 5. Not in a div.</p>
+  </body>
+  
+</html>
+
+2- child selector (>) 
+3- adjacent sibling selector (+) 
+4- general sibling selector (~)

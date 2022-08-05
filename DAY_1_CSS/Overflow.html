@@ -2,20 +2,50 @@
 <html>
   <head>
     <style>
-      div {
+      div.text1{
         background-color: coral;
         width: 200px;
         height: 65px;
         border: 1px solid;
         overflow: visible;
       }
+      div.text2{
+        background-color: coral;
+        width: 200px;
+        height: 65px;
+        border: 1px solid;
+        margin-top: 250px;
+        overflow: hidden;
+      }
+      div.text3{
+        background-color: coral;
+        width: 200px;
+        height: 65px;
+        border: 1px solid;
+        margin-top: 70px;
+        height: 200px;
+        overflow: scroll;
+      }
     </style>
   </head>
   <body>
       <!-- Visible Overflow -->
     <h2>Overflow: visible</h2>
-    <div>
+    <div class="text1">
      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt mollitia quidem et accusamus reiciendis? Cum corporis sunt nam, consectetur nesciunt sint sit ad ducimus ratione nostrum voluptatem eveniet aliquid laborum modi culpa id earum? Dolore, debitis. Provident culpa maxime quas debitis, necessitatibus eius molestias, ipsa praesentium autem, porro rerum laudantium.
+    </div>
+
+     <!-- Hidden Overflow -->
+    <div class="text2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt mollitia quidem et accusamus reiciendis? Cum corporis sunt nam, consectetur nesciunt sint sit ad ducimus ratione nostrum voluptatem eveniet aliquid laborum modi culpa id earum? Dolore, debitis. Provident culpa maxime quas debitis, necessitatibus eius molestias, ipsa praesentium autem, porro rerum laudantium.
+    </div>
+
+    <!-- overflow: scroll -->
+    <div class="text3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt mollitia quidem et accusamus reiciendis? Cum corporis sunt nam, consectetur nesciunt sint sit ad ducimus ratione nostrum voluptatem eveniet aliquid laborum modi culpa id earum? Dolore, debitis. Provident culpa maxime quas debitis, necessitatibus eius molestias, ipsa praesentium autem, porro rerum laudantium.
+
+    <!-- overflow: auto -->
+    The auto value is similar to scroll, but it adds scrollbars only when necessary:
     </div>
   </body>
 </html>
