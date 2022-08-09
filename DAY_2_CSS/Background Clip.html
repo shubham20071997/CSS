@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #case1 {
+        border: 10px dotted black;
+        padding: 35px;
+        background: yellow;
+        background-clip: border-box;
+      }
+
+      #case2 {
+        border: 10px dotted black;
+        padding: 35px;
+        background: yellow;
+        background-clip: padding-box;
+      }
+
+      #case3 {
+        border: 10px dotted black;
+        padding: 35px;
+        background: yellow;
+        background-clip: content-box;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The background-clip Property -->
+    <p>Case1: border-box </p>
+    <div id="case1">
+      <h2>Lorem Ipsum Dolor</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat.
+      </p>
+    </div>
+
+    <p>Case2: padding-box:</p>
+    <div id="case2">
+      <h2>Lorem Ipsum Dolor</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat.
+      </p>
+    </div>
+
+    <p>Case3: content-box:</p>
+    <div id="case3">
+      <h2>Lorem Ipsum Dolor</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat.
+      </p>
+    </div>
+  </body>
+</html>
