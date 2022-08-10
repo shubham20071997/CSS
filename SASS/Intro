@@ -1,0 +1,18 @@
+Sass stands for Syntactically Awesome Stylesheet.
+Sass is an extension to CSS.
+Sass is a CSS pre-processor.
+Sass reduces repetition of CSS.
+
+Note - Browser does not understand Sass code, we need a Sass pre-processor to convert Sass code into standard CSS.
+
+Sass files has the ".scss" file extension.
+Multiline comment - /* comment */
+Singleline comment - // comment
+
+Programming language - Sass is based on Ruby
+
+
+
+
+
+
