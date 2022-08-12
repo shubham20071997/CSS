@@ -1,0 +1,20 @@
+// Sass Variables
+// Variables are a way to store information that we can re-use later.
+
+// Sass Variable Syntax:
+// $variablename: value;
+
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+}
+
+#container {
+  width: $myWidth;
+}

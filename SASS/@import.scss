@@ -1,0 +1,10 @@
+The CSS @import has a major drawback due to performance issues; it creates an extra HTTP request each time you call it. 
+However, the Sass @import includes the file in the CSS; so no extra HTTP call is required at runtime!
+
+Syntax
+@import filename;
+
+Sass Partials
+Sass transpiles all the .scss files directly. However, when we want to import a file, we do not need the file to be transpiled directly & for this we use underscore before the file name.
+Sass Partial Syntax:
+_filename;
