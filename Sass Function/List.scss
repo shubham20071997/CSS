@@ -1,0 +1,49 @@
+// Sass List Functions
+
+1- append(list, value, [separator])  
+append((a b c), d)
+Output: a b c d
+append((a b c), (d), comma)
+Output: a, b, c, d
+
+2- index(list, value)       Returns the index position for the value in list.
+index(a b c, b)
+Output: 2
+index(a b c, f)
+Output: null
+
+3- is-bracketed(list)       Checks whether the list has square brackets.
+is-bracketed([a b c])
+Output: true
+is-bracketed(a b c)
+Output: false
+
+4- join(list1, list2, [separator, bracketed])
+join(a b c, d e f)
+Output: a b c d e f
+join((a b c), (d e f), comma)
+Output: a, b, c, d, e, f
+join(a b c, d e f, $bracketed: true)
+Output: [a b c d e f]
+
+5- length(list)
+length(a b c)
+Output: 3
+
+6- list-separator(list)
+list-separator(a b c)
+Output: "space"
+list-separator(a, b, c)
+Output: "comma"
+
+7- nth(list, n)
+nth(a b c, 3)
+Output: c
+
+8- set-nth(list, n, value)
+set-nth(a b c, 2, x)
+Output: a x c
+
+9- zip(lists)       Combines lists into a single multidimensional list.
+zip(1px 2px 3px, solid dashed dotted, red green blue)
+Output: 1px solid red, 2px dashed green, 3px dotted blue

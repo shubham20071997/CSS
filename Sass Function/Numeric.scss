@@ -1,0 +1,41 @@
+// Sass Numeric Functions
+
+1- abs(number)
+abs(15)
+Output: 15
+
+2- ceil(number)   	Rounds number up to the nearest integer.
+ceil(15.20)
+Output: 16
+
+3- comparable(num1, num2)
+comparable(15px, 10px)
+Output: true
+comparable(35px, 2em)
+Output: false
+
+4- floor(number)    Rounds number down to the nearest integer.
+floor(15.80)
+Output: 15
+
+5- max(number...)   
+max(5, 7, 9, 0, -3, -7)
+Output: 9
+
+6- min(number...)
+min(5, 7, 9, 0, -3, -7)
+Output: -7
+
+7- percentage(number)
+percentage(1.2)
+Output: 120
+
+8- random()
+random()
+Output: 0.45673
+
+9- round(number)
+round(15.20)
+Output: 15
+round(15.80)
+Output: 16

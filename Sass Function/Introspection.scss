@@ -1,0 +1,24 @@
+// Sass Introspection Functions
+
+1- feature-exists(feature)
+feature-exists("at-error");
+Output: true
+
+2- function-exists(functionname)
+function-exists("age")
+Output: false
+
+3- global-variable-exists(variablename)
+
+4- mixin-exists(mixinname)
+
+5- type-of(value)
+type-of(15px)
+Output: number
+type-of(#ff0000)
+Output: color
+
+6- unit(number)
+unit(15px)
+Output: px
+

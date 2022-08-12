@@ -1,0 +1,36 @@
+// Sass Selector Functions
+
+1- is-superselector(super, sub)
+is-superselector("div", "div.myInput")
+Result: true
+is-superselector("div.myInput", "div")
+Result: false
+is-superselector("div", "div")
+Result: true
+
+2- selector-append(selectors)
+selector-append("div", ".myInput")
+Result: div.myInput
+selector-append(".warning", "__a")
+Result: .warning__a
+
+3- selector-nest(selectors)
+selector-nest("ul", "li")
+Result: ul li
+selector-nest(".warning", "alert", "div")
+Result: .warning div, alert div
+
+4- selector-parse(selector)
+selector-parse("h1 .myInput .warning")
+Result: ('h1' '.myInput' '.warning')
+
+5- selector-replace(selector, original, replacement)
+selector-replace("p.warning", "p", "div")
+Result: div.warning
+
+6- selector-unify(selector1, selector2)    
+selector-unify("myInput", ".disabled")
+Result: myInput.disabled
+selector-unify("p", "h1")
+Result: null
+

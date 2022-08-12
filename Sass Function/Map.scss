@@ -1,0 +1,38 @@
+// Sass Map Functions
+
+1- map-get(map, key)
+$font-sizes: ("small": 12px, "normal": 18px, "large": 24px)
+map-get($font-sizes, "small")
+Output: 12px
+
+2- map-has-key(map, key)
+$font-sizes: ("small": 12px, "normal": 18px, "large": 24px)
+map-has-key($font-sizes, "big")
+Output: false
+
+3- map-keys(map)
+$font-sizes: ("small": 12px, "normal": 18px, "large": 24px)
+map-keys($font-sizes)
+Output: "small", "normal, "large"
+
+4- map-values(map)
+$font-sizes: ("small": 12px, "normal": 18px, "large": 24px)
+map-values($font-sizes)
+Output: 12px, 18px, 24px
+
+5- map-merge(map1, map2)
+$font-sizes: ("small": 12px, "normal": 18px, "large": 24px)
+$font-sizes2: ("x-large": 30px, "xx-large": 36px)
+map-merge($font-sizes, $font-sizes2)
+Output: "small": 12px, "normal": 18px, "large": 24px, "x-large": 30px, "xx-large": 36px
+
+6- map-remove(map, keys...)
+$font-sizes: ("small": 12px, "normal": 18px, "large": 24px)
+map-remove($font-sizes, "small")
+Output: ("normal": 18px, "large": 24px)
+map-remove($font-sizes, "small", "large")
+Output: ("normal": 18px)
+
+
+
+

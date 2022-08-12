@@ -1,0 +1,38 @@
+// Sass String Functions
+// The first character in a string is at index 1, not 0.
+
+1- quote(string)
+quote(Hello world!)
+output: "Hello world!"
+
+2- str-index(string, substring)
+str-index("Hello world!", "H")
+Output: 1
+
+3- str-insert(string, insert, index)
+str-insert("Hello world!", " wonderful", 6)
+Output: "Hello wonderful world!"
+
+4- str-length(string)
+str-length("Hello world!")
+Output: 12
+
+5- str-slice(string, start, end)
+str-slice("Hello world!", 2, 5)
+Output: "ello"
+
+6- to-lower-case(string)
+to-lower-case("Hello World!")
+Output: "hello world!"
+
+7- to-upper-case(string)
+to-upper-case("Hello World!")
+Output: "HELLO WORLD!"
+
+8- unique-id()
+unique-id()
+Output: tyghefnsv
+
+9- unquote(string)
+unquote("Hello world!")
+Output: Hello world!
